@@ -58,6 +58,8 @@ function newGame () {
   firstEl.classList.add('active')
   homeScoreEl.textContent = 0
   guestScoreEl.textContent = 0
+  homeScoreEl.style.textDecoration = 'none'
+  guestScoreEl.style.textDecoration = 'none'
   firstEl.classList.remove('previous')
   secondEl.classList.remove('active')
   secondEl.classList.remove('previous')
@@ -75,6 +77,7 @@ function checkLeading () {
   if (
     parseInt(homeScoreEl.textContent) === parseInt(guestScoreEl.textContent)
   ) {
+    console.log('test')
     guestScoreEl.style.textDecoration = 'none'
     homeScoreEl.style.textDecoration = 'none'
   } else if (
