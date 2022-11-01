@@ -1,0 +1,63 @@
+body {
+    font-family: "Cursed Timer ULiL";
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .score {
+    margin: 20px;
+    font-size: 2rem;
+    color: #F94F6D;
+    display: flex;
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    justify-content: center;
+    background: black;
+}
+.container h3 {
+    color: #fff;
+}
+
+.container .actions {
+    margin: 10px 10px;
+}
+
+button {
+    color: #9AABD8;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px #9AABD8;
+}
+
+.quarter {
+    display: grid;
+}
+
+.quarter button {
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+
+.quarter .previous {
+    background-color: grey;    
+}
+
+.quarter .active {
+    background-color: green;    
+}
+
+.fouls {
+    margin: 20px;
+    color: red;
+    font-weight: 500;
+    font-size: 20px;
+}
